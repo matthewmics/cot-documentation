@@ -31,5 +31,5 @@ function HomepageHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
-  return <Redirect to="/docs/category/tech-stack" />
+  return <Redirect to="/cot-documentation/docs/category/tech-stack" />
 }
