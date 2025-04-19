@@ -60,6 +60,11 @@ docker compose up
 For the first time using this command it will run migrations and cli for populating the database
 :::
 
+:::note
+You can test if api is running [http://localhost:3000/api](http://localhost:3000/api)
+:::
+
+
 To check the status of the containers, you can use:
 
 ```
