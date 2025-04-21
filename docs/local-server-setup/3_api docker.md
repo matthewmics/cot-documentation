@@ -31,9 +31,10 @@ Before running the Docker containers, you need to copy some configuration files 
     cp src/appConfig.example.ts src/appConfig.ts
     ```
 2. Copy database.config.example.ts to database.config.ts
-   `    cp src/db/database.config.example.ts src/db/database.config.ts
-   `
-   After copying these files, you can proceed with starting the application using Docker.
+    ```
+    cp src/db/database.config.example.ts src/db/database.config.ts
+    ```
+    After copying these files, you can proceed with starting the application using Docker.
 
 ## Running Docker
 
