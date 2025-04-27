@@ -1,5 +1,15 @@
 # Quickbase Integration
 
+:::danger
+Notice we are still using my user token for this. If for some reason they decide to delete my qb account, this token might not work anymore.
+
+![Alt Text](./assets/configexample.png)
+
+Kindly request a new account to be created for accessing the dev test and just create a new user token.
+:::
+
+
+
 :::warning
 If our server experiences downtime, we need to manually run the following command:
 
