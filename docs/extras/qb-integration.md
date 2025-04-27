@@ -8,8 +8,6 @@ Notice we are still using my user token for this. If for some reason they decide
 Kindly request a new account to be created for accessing the dev test and just create a new user token.
 :::
 
-
-
 :::warning
 If our server experiences downtime, we need to manually run the following command:
 
@@ -48,7 +46,7 @@ npm run cli:run -- command=populate-requisitions-from-qb
 ```
 
 :::warning
-In production, during manual sync, we don’t need to delete records from the requisitions table. We only delete records from our local database to ensure that all data is synced from the Quickbase development instance and this is only .
+We are deleting records from the requisitions table because it was initially populated with hardcoded data. This ensures that the old data doesn’t appear when we sync the records with Quickbase.
 :::
 
 ## Automated Data Sync via Webhooks
