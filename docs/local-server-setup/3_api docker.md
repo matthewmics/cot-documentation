@@ -114,6 +114,13 @@ To access the MySQL database container, use the following command:
 
 ```
 docker exec -it mysql8-dev sh
+mysql -u root -padmin
+```
+
+or
+
+```
+mysql -u root -padmin -P3307
 ```
 
 ## Conclusion
