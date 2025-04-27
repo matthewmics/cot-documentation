@@ -164,7 +164,7 @@ Now just simply generate the migration and run it
 :::
 
 :::warning
-It's very very important that the column name and the name of mapping is exactly the same. Otherwise, it won't populate. Notice how used `jobFamily` for both
+It's very very important that the column name and the name of mapping are exactly the same. Otherwise, it won't populate. Notice how we used `jobFamily` for both
 :::
 
 ### 4. Run manual sync
